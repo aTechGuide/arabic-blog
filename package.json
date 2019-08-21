@@ -8,7 +8,7 @@
     "gatsby": "^2.13.67",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-plugin-offline": "^2.2.6",
-    "gatsby-theme-blog-starter": "^0.0.3",
+    "gatsby-theme-blog-starter": "^0.0.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

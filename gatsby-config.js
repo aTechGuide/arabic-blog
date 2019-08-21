@@ -1,3 +1,15 @@
+const cspDirectives = [
+  "default-src 'self' https://disqus.com https://c.disquscdn.com",
+  "script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://arabic-blog.disqus.com",
+  "frame-src https://disqus.com",
+  "font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://c.disquscdn.com",
+  "img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://c.disquscdn.com",
+  "object-src 'none'"
+];
+
+const directivesToCspHeader = headers => headers.join(';');
+
 module.exports = {
   siteMetadata: {
     // Final blog https://github.com/hidjou/classsed-gatsby-blog/
@@ -16,9 +28,9 @@ module.exports = {
     ],
     contactSupport: 'https://www.facebook.com/arabicblog/',
     bingId: 'B73F178C4AB143116D3FE641C6044861',
-    menuLinks: [{name: 'Tags', link: '/tags/'}]
+    menuLinks: [{name: 'Tags', link: '/tags/'}],
+    comments: 'false' // Enable disable comments
   },
-  //__experimentalThemes: ['gatsby-theme-blog-starter'],
   plugins: [
     {
       resolve: "gatsby-theme-blog-starter",
@@ -51,6 +63,20 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    `gatsby-plugin-offline` //<- Adds service worker; Add after gatsby-plugin-manifest
+    `gatsby-plugin-offline`, //<- Adds service worker; Add after gatsby-plugin-manifest
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': [
+            'X-Frame-Options: DENY',
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
+            `Content-Security-Policy: ${directivesToCspHeader(cspDirectives)}`,
+            'Referrer-Policy: no-referrer-when-downgrade'
+          ]
+        }
+      }
+    }
   ]
 }
