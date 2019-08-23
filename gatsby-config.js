@@ -1,15 +1,3 @@
-const cspDirectives = [
-  "default-src 'self' https://disqus.com https://c.disquscdn.com",
-  "script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://arabic-blog.disqus.com",
-  "frame-src https://disqus.com",
-  "font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com",
-  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://c.disquscdn.com",
-  "img-src 'self' data: https://www.google-analytics.com https://referrer.disqus.com https://c.disquscdn.com",
-  "object-src 'none'"
-];
-
-const directivesToCspHeader = headers => headers.join(';');
-
 module.exports = {
   siteMetadata: {
     // Final blog https://github.com/hidjou/classsed-gatsby-blog/
@@ -29,7 +17,7 @@ module.exports = {
     contactSupport: 'https://www.facebook.com/arabicblog/',
     bingId: 'B73F178C4AB143116D3FE641C6044861',
     menuLinks: [{name: 'Tags', link: '/tags/'}],
-    comments: 'false' // Enable disable comments
+    comments: 'true' // Enable disable comments
   },
   plugins: [
     {
@@ -72,9 +60,23 @@ module.exports = {
             'X-Frame-Options: DENY',
             'X-XSS-Protection: 1; mode=block',
             'X-Content-Type-Options: nosniff',
-            `Content-Security-Policy: ${directivesToCspHeader(cspDirectives)}`,
             'Referrer-Policy: no-referrer-when-downgrade'
           ]
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-csp`,
+      options: {
+        disableOnDev: true,
+        mergeScriptHashes: true,
+        mergeStyleHashes: false, 
+        mergeDefaultDirectives: true,
+        directives: {
+          "default-src": "'self' https://disqus.com https://c.disquscdn.com ",
+          "script-src": "'self' 'unsafe-eval' www.google-analytics.com https://arabic-blog.disqus.com", //<- "'unsafe-eval'" should be avoided but MDX plugin uses it. I've raised a question waiting for response.
+          "style-src": "'self' 'unsafe-inline'", //<- "'unsafe-inline'" should be avoided but the plugin was broken with mergeStyleHashes
+          "img-src": "'self' data: www.google-analytics.com https://referrer.disqus.com https://c.disquscdn.com"
         }
       }
     }
