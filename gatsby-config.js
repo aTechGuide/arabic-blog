@@ -19,6 +19,7 @@ module.exports = {
     menuLinks: [{name: 'Tags', link: '/tags/'}],
     comments: 'true' // Enable disable comments
   },
+  //__experimentalThemes: ['gatsby-theme-blog-starter'],
   plugins: [
     {
       resolve: "gatsby-theme-blog-starter",
@@ -69,12 +70,12 @@ module.exports = {
       resolve: `gatsby-plugin-csp`,
       options: {
         disableOnDev: true,
-        mergeScriptHashes: true,
+        mergeScriptHashes: false,
         mergeStyleHashes: false, 
         mergeDefaultDirectives: true,
         directives: {
           "default-src": "'self' https://disqus.com https://c.disquscdn.com ",
-          "script-src": "'self' 'unsafe-eval' www.google-analytics.com https://arabic-blog.disqus.com", //<- "'unsafe-eval'" should be avoided but MDX plugin uses it. I've raised a question waiting for response.
+          "script-src": "'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com https://arabic-blog.disqus.com", //<- "'unsafe-eval'" should be avoided but MDX plugin uses it. 'unsafe-inline' is unsafe and is required by Disqus
           "style-src": "'self' 'unsafe-inline'", //<- "'unsafe-inline'" should be avoided but the plugin was broken with mergeStyleHashes
           "img-src": "'self' data: www.google-analytics.com https://referrer.disqus.com https://c.disquscdn.com"
         }

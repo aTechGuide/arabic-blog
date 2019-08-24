@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from "gatsby-theme-blog-starter/src/components/layout/layout"
 import Seo from "gatsby-theme-blog-starter/src/components/seo/Seo"
-import AboutLayout from 'gatsby-theme-blog-starter/src/components/layout/AboutLayout';
+import AboutLayout from '../components/layouts/AboutLayout';
 
 const About = () => {
   return(
