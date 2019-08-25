@@ -23,7 +23,10 @@ module.exports = {
   plugins: [
     {
       resolve: "gatsby-theme-blog-starter",
-      options: {},
+      options: {
+        trackingId: "UA-27634418-5",
+        postsPath: "posts"
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`, //<- Creates manifest file
