@@ -26,20 +26,6 @@ module.exports = {
       options: {},
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`, //<- Creates manifest file
       options: {
         name: "ArabicBlog.info",
@@ -49,7 +35,7 @@ module.exports = {
         background_color: "#673ab7",
         theme_color: "#673ab7",
         display: "standalone",
-        icon: "src/images/icon.png",
+        icon: "images/icon.png",
       },
     },
     `gatsby-plugin-offline`, //<- Adds service worker; Add after gatsby-plugin-manifest
