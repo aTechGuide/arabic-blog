@@ -26,7 +26,8 @@ module.exports = {
       options: {
         trackingId: "UA-27634418-5",
         postsPath: "posts",
-        postsPerPage: "2"
+        postsPerPage: "2",
+        mailchimpURL: "https://kamranali.us19.list-manage.com/subscribe/post?u=81033a93b0c17d2aca19ba835&amp;id=32d4ecb6e3"
       },
     },
     {
