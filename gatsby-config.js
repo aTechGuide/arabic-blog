@@ -66,7 +66,7 @@ module.exports = {
         mergeDefaultDirectives: true,
         directives: {
           "default-src": "'self' https://disqus.com https://c.disquscdn.com ",
-          "script-src": "'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com https://arabic-blog.disqus.com", //<- "'unsafe-eval'" should be avoided but MDX plugin uses it. 'unsafe-inline' is unsafe and is required by Disqus
+          "script-src": "'self' 'unsafe-inline' www.google-analytics.com https://arabic-blog.disqus.com", //<- 'unsafe-inline' is unsafe and is required by Disqus
           "style-src": "'self' 'unsafe-inline'", //<- "'unsafe-inline'" should be avoided but the plugin was broken with mergeStyleHashes
           "img-src": "'self' data: www.google-analytics.com https://referrer.disqus.com https://c.disquscdn.com"
         }
