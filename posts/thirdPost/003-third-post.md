@@ -3,13 +3,13 @@ title: SEO Title
 description: SEO Description
 pagetitle: Page Title
 summary: Page Description
-date: '2019-02-06'
-update_date: '2019-03-02'
+date: '2017-02-06'
+update_date: '2017-03-02'
 tags:
   - Arabic
 label:
   - Nahw
-slug: theme/
+slug: theme
 published: true
 image: ./icon.png
 ---
