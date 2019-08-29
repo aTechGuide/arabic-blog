@@ -10,7 +10,6 @@ module.exports = {
     genre: 'Arabic Grammar Tutorials',
     keywords: [`Arabic`, `ArabicBlog`, `Arabic Tutorials`, `Arabic Grammar`, `Arabic Grammar Tutorials`, `Learn Arabic in English`],
     email: `admin@arabicblog.info`,
-    paginate: `12`,
     social: [
       'https://www.facebook.com/arabicblog/'
     ],
@@ -26,7 +25,7 @@ module.exports = {
       options: {
         trackingId: "UA-27634418-5",
         postsPath: "posts",
-        postsPerPage: "3",
+        postsPerPage: "4",
         mailchimpURL: "https://kamranali.us19.list-manage.com/subscribe/post?u=81033a93b0c17d2aca19ba835&amp;id=32d4ecb6e3"
       },
     },
