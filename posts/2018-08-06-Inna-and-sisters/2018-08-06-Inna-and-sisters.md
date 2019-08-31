@@ -4,7 +4,7 @@ description: We will learn what is Inna and its sisters? When to use إن and wh
 pagetitle: Inna and its sisters (إنّ و اخواتها)
 summary: We will learn what is Inna and its sisters? When to use إن and when to use أن? Rules of ما when used with إنّ?
 date: '2018-08-06'
-update_date: '2019-02-28'
+update_date: '2019-08-29'
 tags:
   - Nahw
 label:
