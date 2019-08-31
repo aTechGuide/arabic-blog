@@ -64,3 +64,8 @@ This page has details of text formatting used in Arabic Blog with examples.
 
 > **زيد**{: .arabic .irab}
  منادى مبني على الضم في محل نصب
+
+
+<br/>
+
+![Alt](./icon.png){:title="title"}
