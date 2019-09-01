@@ -11,7 +11,7 @@ tags:
 label:
   - Nahw
 slug: ilm-ul-bayan
-published: true
+published: false
 image: ./placeholder.png
 ---
 
