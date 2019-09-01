@@ -12,7 +12,7 @@ label:
   - Nahw
 slug: verbs-in-arabic-grammar
 published: true
-image: ./verbs-in-arabic-grammar.png
+image: ./verbs-in-arabic-grammar-snippet.png
 ---
 ## What are Verbs in Arabic Grammar?
 Verbs in Arabic Grammar represents *an Action*. It basically informs us about two properties

@@ -12,7 +12,7 @@ label:
   - Nahw
 slug: arabic-grammar-3-parts-of-speech
 published: true
-image: ./three-parts-of-learning-arabic.png
+image: ./3-parts-of-speech-arabic.png
 ---
 
 **Arabic**{: .firstword} is a Semitic language based on tri-literal roots. It's the official language of 26 states and Modern Standard Arabic is one of six official languages of the United Nations.  

@@ -11,7 +11,7 @@ label:
   - Nahw
 slug: inna-and-its-sisters-ان-و-اخواتها
 published: true
-image: ./inna-and-sisters.png
+image: ./inna-and-sisters-snippet.png
 ---
 
 ## what is Inna and its sisters? (إنّ و اخواتها)

@@ -12,7 +12,7 @@ label:
   - Nahw
 slug: diptote-mamnu-min-as-sarf
 published: true
-image: ./two-types-of-mutanakkin.png
+image: ./2-mutanakkin-snippet.png
 ---
 
 According to Ulema, Ism (الاسم) is divided into two
@@ -37,7 +37,7 @@ It is divided into two
   - They don't take Tanween
   - Example: عمرُ
 
-![Two Types of Mutanakkin](./two-types-of-mutanakkin.png){:title="Two Types of Isms"}
+![Two Types of Mutanakkin](./2-mutanakkin.png){:title="Two Types of Isms"}
 
 ## **غير مُتَمَكِّن**{: .arabic}
 They are called غير متمكن because they don't look like a noun. Instead, they look like الحرف. Example: الضمائر  

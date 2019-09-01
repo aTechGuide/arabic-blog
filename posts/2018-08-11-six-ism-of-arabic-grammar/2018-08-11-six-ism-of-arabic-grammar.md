@@ -13,7 +13,7 @@ label:
   - Nahw
 slug: 6-isms-of-arabic-grammar-الأسماء-الستة
 published: true
-image: ./six-isms.png
+image: ./six-isms-snippet.png
 ---
 
 **Six Isms**{: .firstword} Or **الأسماء الستة**{: .firstword} are words in Arabic grammar having special conjugations in Raf, Nasb and Jar form.

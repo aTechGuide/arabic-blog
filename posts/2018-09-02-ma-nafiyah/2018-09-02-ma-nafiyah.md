@@ -12,7 +12,7 @@ label:
   - Nahw
 slug: ma-hijaziyah-vs-ma-tamimiyah
 published: true
-image: ./negation-with-ma.png
+image: ./negation-with-ma-snippet.png
 ---
 
 **Negation**{: .firstword} in any language is very common and so in Arabic language. There are multiple ways to negate a sentence in Arabic language and one among them is to use ما at the beginning of sentence.  
