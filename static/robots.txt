@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /theme/
-Disallow: /
+Allow: /
+
+Sitemap: https://arabicblog.info/sitemap.xml
