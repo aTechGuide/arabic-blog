@@ -10,7 +10,7 @@ tags:
 label:
   - Nahw
 slug: theme
-published: true
+published: false
 image: ./icon.png
 ---
 

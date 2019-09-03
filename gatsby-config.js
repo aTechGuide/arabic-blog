@@ -16,6 +16,8 @@ module.exports = {
     contactSupport: 'https://www.facebook.com/arabicblog/',
     bingId: 'B73F178C4AB143116D3FE641C6044861',
     menuLinks: [{name: 'Tags', link: '/tags/'}],
+    footerLinks: [{name: 'About', link: '/arabic-grammar-tutorials-in-english/'}, {name: 'Terms of Use', link: '/terms-of-use/'}, {name: 'Privacy Policy', link: '/privacy-policy/'}],
+    displayFooterMessage: true,
     comments: 'true' // Enable disable comments
   },
   //__experimentalThemes: ['gatsby-theme-blog-starter'],
