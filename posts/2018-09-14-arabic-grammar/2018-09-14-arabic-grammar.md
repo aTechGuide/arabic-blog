@@ -4,7 +4,7 @@ description: Basics of Arabic Grammar in simple English. Detailed explanation of
 pagetitle: Arabic Grammar and Parts of Speech
 summary: Basics of Arabic Grammar in simple English. Detailed explanation of 3 parts of speech in Arabic Grammar i.e. Ism, Fa’il and Harf. And how to differentiate between Ism, Fa’il and Harf.
 date: '2018-09-14'
-update_date: '2019-03-03'
+update_date: '2019-09-11'
 tags:
   - Arabic Grammar
   - Nahw
