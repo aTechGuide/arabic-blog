@@ -20,13 +20,13 @@ module.exports = {
     displayFooterMessage: true,
     comments: 'true' // Enable disable comments
   },
-  //__experimentalThemes: ['gatsby-theme-blog-starter'],
   plugins: [
     {
       resolve: "gatsby-theme-blog-starter",
       options: {
         trackingId: "UA-27634418-5",
         postsPath: "posts",
+        imagesPath: "images",
         postsPerPage: "12",
         mailchimpURL: "https://kamranali.us19.list-manage.com/subscribe/post?u=81033a93b0c17d2aca19ba835&amp;id=32d4ecb6e3"
       },
