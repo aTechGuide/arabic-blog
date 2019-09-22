@@ -1,12 +1,10 @@
 module.exports = {
   siteMetadata: {
-    // Final blog https://github.com/hidjou/classsed-gatsby-blog/
     title: `Arabic Blog`,
     description: `Kamran Ali's Arabic Grammar Blog`,
     author: `Kamran Ali`,
     twitterId: `@aTechGuide`,
     siteUrl: `https://arabicblog.info`,
-    //siteUrl: `https://arabicblog.netlify.com`,
     genre: 'Arabic Grammar Tutorials',
     keywords: [`Arabic`, `ArabicBlog`, `Arabic Tutorials`, `Arabic Grammar`, `Arabic Grammar Tutorials`, `Learn Arabic in English`],
     email: `admin@arabicblog.info`,
