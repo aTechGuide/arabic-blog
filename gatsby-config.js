@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Arabic Blog`,
-    description: `Kamran Ali's Arabic Grammar Blog`,
+    description: `Easy Arabic Grammar basic rules in simple English for beginners. It covers fundamentals of Arabic Grammar Verbs (Tenses). Arabic Grammar Lessons for understanding Quran`,
     author: `Kamran Ali`,
     twitterId: `@aTechGuide`,
     siteUrl: `https://arabicblog.info`,
