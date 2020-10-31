@@ -1,5 +1,5 @@
 ---
-title: Ma Hijaziyah Vs Ma Tamimiyah | ما النافية الحجازية | ما النافية التميمية
+title: Ma Hijaziyah Vs Ma Tamimiyah [ما الحجازية Vs ما التميمية]
 description: Difference between negation with Ma Hijaziyah Vs Ma Tamimiyah? Irab and its use in Quran.
 pagetitle: Ma Hijaziyah Vs Ma Tamimiyah
 summary: Difference between negation with Ma Hijaziyah Vs Ma Tamimiyah? Irab and its use in Quran.
