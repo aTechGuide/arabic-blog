@@ -5,9 +5,9 @@ import Seo from "gatsby-theme-blog-starter/src/components/seo/Seo"
 import PageLayout from "gatsby-theme-blog-starter/src/components/layout/PageLayout";
 
 const TermsOfUse = () => (
-  <Layout pageTitle="Terms of Use">
+  <Layout>
     <Seo 
-      title="Terms Of Use"
+      title="Terms Of Use Arabic Blog - Arabic Grammar Tutorials"
       description="Terms Of Use for Arabic Blog"
       tags={["Terms Of Use"]}
       slug="/terms-of-use" />

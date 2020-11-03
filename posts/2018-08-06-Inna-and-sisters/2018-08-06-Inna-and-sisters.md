@@ -9,7 +9,7 @@ tags:
   - Nahw
 label:
   - Nahw
-slug: inna-and-its-sisters-ان-و-اخواتها
+slug: inna-and-its-sisters
 published: true
 image: ./inna-and-sisters-snippet.png
 ---

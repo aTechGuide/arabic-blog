@@ -10,7 +10,7 @@ tags:
   - Nahw
 label:
   - Nahw
-slug: when-to-use-tanween-التنوين
+slug: when-to-use-tanween
 published: true
 image: ./tanween.png
 ---

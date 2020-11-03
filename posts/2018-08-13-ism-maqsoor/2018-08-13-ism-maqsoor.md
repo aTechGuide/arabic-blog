@@ -10,7 +10,7 @@ tags:
   - Nahw
 label:
   - Nahw
-slug: ism-maqsoor-الاسم-المقصور
+slug: ism-maqsoor
 published: true
 image: ./maqsoor.png
 ---

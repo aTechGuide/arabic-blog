@@ -11,7 +11,7 @@ tags:
   - Nahw
 label:
   - Nahw
-slug: 6-isms-of-arabic-grammar-الأسماء-الستة
+slug: 6-isms-of-arabic-grammar
 published: true
 image: ./six-isms-snippet.png
 ---
