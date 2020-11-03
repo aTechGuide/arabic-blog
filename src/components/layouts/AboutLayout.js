@@ -78,7 +78,7 @@ const AboutLayout = () => {
                   <CardContent className={classes.authorCardContent }>
                     <Typography variant="body2" color="textSecondary" component="p">
                       <a className={classes.link} href="https://kamranali.in/" target="_blank" rel="noopener noreferrer">Kamran Ali</a> started his beautiful journey of learning Arabic Grammar from the online lectures of Brother {' '}
-                      <a className={classes.link} href="http://lisanulquran.com" target="_blank" rel="nofollow noopener noreferrer ">Aamir Sohail</a> in Urdu Language.
+                      <a className={classes.link} href="https://lisanulquran.com" target="_blank" rel="nofollow noopener noreferrer ">Aamir Sohail</a> in Urdu Language.
 
                       <br/> <br/>
 
