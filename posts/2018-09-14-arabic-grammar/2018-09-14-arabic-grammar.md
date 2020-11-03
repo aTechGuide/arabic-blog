@@ -149,7 +149,7 @@ Fa'il in Arabic grammar can be compared to verbs in English language e.g. كتب
 There are multiple signs of a word being Fa'il. But here we will discuss 4 of them which are as follows  
 
 1. If we find قد before a word then it is الفعل e.g. قد **ذهب**{: .bg-yellow}, قد **يذهب**{: .bg-yellow}.  
-**Note**: This sign works with both *Fa'il Madhi* (فعل ماض) and *Fa'il Mudhari* (فعل مضارع). (Details of فعل ماض and فعل مضارع can be found in [Verbs in Arabic Grammar](/verbs-in-arabic-grammar) article)
+**Note**: This sign works with both *Fa'il Madhi* (فعل ماض) and *Fa'il Mudhari* (فعل مضارع). (Details of فعل ماض and فعل مضارع can be found in [Verbs in Arabic Grammar](/verbs-in-arabic-grammar/) article)
   > دخول قد
 2. If we find *Seen* (السين) Or *Sawfa* (سوف) before a word then it is الفعل e.g. **س**{: .bg-yellow}أذهب Or **سوف**{: .bg-yellow} أذهب.  
 **Note**: This sign works with فعل مضارع only.

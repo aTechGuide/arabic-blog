@@ -181,7 +181,7 @@ const TermsOfUse = () => (
 
       <h2>Credit & Contact Information</h2>
       <p>This Terms and conditions page was created at <a
-        href="https://termsandconditionstemplate.com">termsandconditionstemplate.com</a> generator. If you have
+        href="https://privacyterms.io/">privacyterms.io</a> generator. If you have
       any queries regarding any of our terms, please <a href="https://www.facebook.com/arabicblog/" target="_blank" rel="nofollow noopener noreferrer">contact us</a>.</p>
     </PageLayout>
   </Layout>

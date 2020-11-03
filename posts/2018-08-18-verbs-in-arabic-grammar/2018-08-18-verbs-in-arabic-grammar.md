@@ -177,5 +177,5 @@ Verbs in Arabic grammar at first glance looks quite complex and overwhelming wit
 
 ## Verbs in Arabic Grammar Reference(s)
 - [Qutoof Academy](https://www.qutoofacademy.com/){:target="_blank" rel="nofollow noopener"}
-- [cooljugator.com](https://cooljugator.com/ar/%D9%83%D8%AA%D8%A8){:target="_blank" rel="nofollow noopener"}
+- [cooljugator.com](https://cooljugator.com){:target="_blank" rel="nofollow noopener"}
 - [acon.baykal.be](http://acon.baykal.be/index.php?r3=%D8%A8&r2=%D8%AA&r1=%D9%83&type=I&pvowel=a&ivowel=u&display=traditional){:target="_blank" rel="nofollow noopener"}

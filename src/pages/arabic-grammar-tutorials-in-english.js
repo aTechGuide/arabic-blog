@@ -8,9 +8,9 @@ const About = () => {
   return(
   <Layout pageTitle="About">
     <Seo 
-      title="About"
-      description="About Page"
-      tags={["About Page"]}
+      title="Arabic Grammar Tutorials in Simple English For Beginners"
+      description="Easy Arabic Grammar basic rules in simple English for beginners. It covers fundamentals of Arabic Grammar Verbs (Tenses). Arabic Grammar Lessons for understanding Quran"
+      tags={["Arabic Grammar Tutorials in English", "Arabic Grammar Tutorials for beginners"]}
       slug="/arabic-grammar-tutorials-in-english"  />
     
     <AboutLayout />
