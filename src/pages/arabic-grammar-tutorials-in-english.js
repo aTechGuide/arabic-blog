@@ -10,8 +10,8 @@ const About = () => {
     <Seo 
       title="Arabic Grammar Tutorials in Simple English For Beginners"
       description="Easy Arabic Grammar basic rules in simple English for beginners. It covers fundamentals of Arabic Grammar Verbs (Tenses)."
-      tags={["Arabic Grammar Tutorials in English", "Arabic Grammar Tutorials for beginners"]}
-      slug="/arabic-grammar-tutorials-in-english"  />
+      keywords={["Arabic Grammar Tutorials in English", "Arabic Grammar Tutorials for beginners"]}
+      slug="arabic-grammar-tutorials-in-english"  />
     
     <AboutLayout />
   </Layout>

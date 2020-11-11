@@ -8,6 +8,9 @@ update_date: '2019-03-01'
 tags:
   - Arabic verb
   - Nahw
+keywords:
+  - Arabic verb
+  - Nahw
 label:
   - Nahw
 slug: verbs-in-arabic-grammar

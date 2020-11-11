@@ -8,6 +8,9 @@ update_date: '2019-09-11'
 tags:
   - Arabic Grammar
   - Nahw
+keywords:
+  - Arabic Grammar
+  - Nahw
 label:
   - Nahw
 slug: arabic-grammar-3-parts-of-speech

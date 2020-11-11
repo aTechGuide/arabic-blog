@@ -8,6 +8,9 @@ update_date: '2018-08-30'
 tags: 
   - Ta'jjub
   - Nahw
+keywords:
+  - Ta'jjub
+  - Nahw
 label:
   - Nahw
 slug: exclamations-in-arabic

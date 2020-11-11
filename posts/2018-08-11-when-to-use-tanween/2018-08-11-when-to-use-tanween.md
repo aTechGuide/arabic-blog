@@ -8,6 +8,9 @@ update_date: '2019-02-28'
 tags:
   - Tanween
   - Nahw
+keywords:
+  - Tanween
+  - Nahw
 label:
   - Nahw
 slug: when-to-use-tanween

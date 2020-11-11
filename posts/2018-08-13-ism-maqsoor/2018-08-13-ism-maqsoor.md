@@ -8,6 +8,9 @@ update_date: '2019-08-31'
 tags:
   - Ism Maqsoor
   - Nahw
+keywords:
+  - Ism Maqsoor
+  - Nahw
 label:
   - Nahw
 slug: ism-maqsoor

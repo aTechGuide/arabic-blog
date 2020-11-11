@@ -9,8 +9,8 @@ const TermsOfUse = () => (
     <Seo 
       title="Terms Of Use Arabic Blog - Arabic Grammar Tutorials"
       description="Terms Of Use for Arabic Blog"
-      tags={["Terms Of Use"]}
-      slug="/terms-of-use" />
+      keywords={["Terms Of Use"]}
+      slug="terms-of-use" />
 
     <PageLayout title="Terms of Use">
       <p>Last Updated: 12 May 2019</p>

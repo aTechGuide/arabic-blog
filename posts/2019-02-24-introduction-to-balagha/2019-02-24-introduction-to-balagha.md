@@ -9,6 +9,10 @@ tags:
   - Balagha
   - Irab
   - Nahw
+keywords:
+  - Balagha
+  - Irab
+  - Nahw
 label:
   - balagha
 slug: introduction-to-balagha

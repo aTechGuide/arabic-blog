@@ -8,6 +8,9 @@ update_date: '2019-03-02'
 tags:
   - Diptote
   - Nahw
+keywords:
+  - Diptote
+  - Nahw
 label:
   - Nahw
 slug: diptote-mamnu-min-as-sarf

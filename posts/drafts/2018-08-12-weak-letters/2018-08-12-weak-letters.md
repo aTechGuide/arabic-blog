@@ -9,6 +9,10 @@ tags:
   - Weak Letters
   - Verb
   - Nahw
+keywords:
+  - Weak Letters
+  - Verb
+  - Nahw
 label:
   - Nahw
 slug: weak-letters-حروف-العلة

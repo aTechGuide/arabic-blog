@@ -9,6 +9,10 @@ tags:
   - six Isms
   - Irab
   - Nahw
+keywords:
+  - six Isms
+  - Irab
+  - Nahw
 label:
   - Nahw
 slug: 6-isms-of-arabic-grammar

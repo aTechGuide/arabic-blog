@@ -8,6 +8,9 @@ update_date: '2019-03-01'
 tags:
   - Kana
   - Nahw
+keywords:
+  - Kana
+  - Nahw
 label:
   - Nahw
 slug: kana-and-its-sisters

@@ -8,6 +8,9 @@ update_date: '2019-08-31'
 tags:
   - Ilm ul Bayan
   - balagha
+keywords:
+  - Ilm ul Bayan
+  - balagha
 label:
   - Nahw
 slug: ilm-ul-bayan

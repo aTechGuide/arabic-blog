@@ -10,8 +10,8 @@ const privacyPolicy = () => {
       <Seo 
         title="Privacy Policy Arabic Blog - Arabic Grammar Tutorials"
         description="Privacy Policy of Arabic Blog"
-        tags={["Privacy Policy"]}
-        slug="/privacy-policy" />
+        keywords={["Privacy Policy"]}
+        slug="privacy-policy" />
         
       <PageLayout title="Privacy Policy">
         <p>Last Updated: 16 May 2019</p>

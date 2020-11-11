@@ -7,6 +7,8 @@ date: '2017-02-06'
 update_date: '2017-03-02'
 tags:
   - Arabic
+keywords:
+  - Arabic
 label:
   - Nahw
 slug: theme

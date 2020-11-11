@@ -8,6 +8,9 @@ update_date: '2019-03-02'
 tags:
   - Ma Nafiyah
   - Nahw
+keywords:
+  - Ma Nafiyah
+  - Nahw
 label:
   - Nahw
 slug: ma-hijaziyah-vs-ma-tamimiyah
